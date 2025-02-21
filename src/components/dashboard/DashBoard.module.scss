@@ -1,5 +1,4 @@
 .headerDashboard {
-  border: solid;
   width: 20vw;
 }
 
@@ -7,15 +6,19 @@
   display: flex;
 }
 
-.mainContainer {
+.dashboardMainContainer {
   width: 95%;
+}
+
+.mainDashboard {
+  display: flex;
+  flex-direction: column;
 }
 
 .formDashboard {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  border: solid;
 }
 
 input,
@@ -23,7 +26,6 @@ select {
   width: 100%;
   height: 4vh;
   border-radius: 6px;
-  border: solid #cbd4e1;
 }
 
 label {
@@ -33,7 +35,6 @@ label {
 }
 
 .group1 {
-  border: solid red;
   width: 30%;
   height: 25vh;
   display: flex;
@@ -70,6 +71,62 @@ label {
 }
 
 .group2 {
-  border: solid green;
   width: 65%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.inputData {
+  width: 25%;
+}
+
+.costs {
+  width: 30%;
+}
+
+.costCenter {
+  width: 40%;
+}
+
+.orders,
+.divisions,
+.pep,
+.distance {
+  width: 9%;
+}
+
+.currency,
+.valueKm,
+.valueIncome,
+.costs {
+  width: 12%;
+}
+.buttons {
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+table {
+  margin-top: 8vh;
+  height: 10vh;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+th {
+  background-color: #cbd4e1;
+  font-weight: 400;
+  color: #23282f;
+  font-size: 1rem;
+}
+
+table,
+th,
+td {
+  text-align: center;
 }
