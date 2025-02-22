@@ -32,7 +32,7 @@ function Login() {
 
           <div className={styles.buttonGroup}>
             <button onClick={goToRefunds}> Entrar</button>
-            <button>Criar conta</button>
+            <button className={styles.lastButton}>Criar conta</button>
           </div>
         </form>
       </section>
