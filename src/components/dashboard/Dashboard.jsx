@@ -130,7 +130,7 @@ function Dashboard() {
 
               <div className={styles.buttons}>
                 <button>Salvar</button>
-                <button> deletar</button>
+                <button className={styles.lastButton}> deletar</button>
               </div>
             </div>
           </form>

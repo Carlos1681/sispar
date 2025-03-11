@@ -110,6 +110,20 @@ label {
   justify-content: space-evenly;
 }
 
+button {
+  background-color: #00bedd;
+  height: 6vh;
+  width: 5vw;
+  color: #ffffff;
+  border: none;
+  border-radius: 5%;
+  margin: 2%;
+}
+
+.lastButton {
+  background-color: #0844c4;
+}
+
 table {
   margin-top: 8vh;
   height: 10vh;
